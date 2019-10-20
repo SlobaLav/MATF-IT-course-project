@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./porudzbina.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <title>Porudžbina</title>
+
+
+
+
+</head>
+
+<body class="bg-success">
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./index.html">SLO DOSTAVA</a>
+      </div>
+
+    </div>
+  </nav>
+</body>
+
+    <div class="container">
+      <p>
+        <label for="new-task">Dodaj stavku</label><input id="new-task" type="text"><button>Dodaj</button>
+      </p>
+      
+      <h3>Porudzbina</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Coca-Cola 2l, 10 kom</label><input type="text"><button class="edit">Izmeni</button><button class="delete">Obrisati</button></li>
+        <li><input type="checkbox"><label>Votka Absolut 0.7l, 3 kom</label><input type="text"><button class="edit">Izmeni</button><button class="delete">Obrisati</button></li>
+
+        
+      </ul>
+      
+      <h3>H I T N O</h3> Štiklirajte proizvod da biste ga dodali u listu.
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>Nes 3 u 1, 50 kom</label><input type="text"><button class="edit">Izmeni</button><button class="delete">Obrisati</button></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+
+    <form action="/action_page.php" method="get" target="_blank">
+      First name: <input type="text" name="fname"><br>
+      Last name: <input type="text" name="lname"><br>
+      <button type="submit" formmethod="post">Submit</button>
+    </form>
+
+
+</html>
