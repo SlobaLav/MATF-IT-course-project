@@ -2,6 +2,12 @@ body {
   background: lightblue;
   color: white;
   font-family: Lato, sans-serif;
-  background-image: url("../images/delivery.png");
   background-size: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
